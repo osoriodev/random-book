@@ -1,0 +1,24 @@
+{
+  "name": "random-book",
+  "version": "1.0.0",
+  "description": "Get a random book name",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osoriodev/random-book.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "books"
+  ],
+  "author": "David Osorio <osoriodev@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osoriodev/random-book/issues"
+  },
+  "homepage": "https://github.com/osoriodev/random-book#readme"
+}
