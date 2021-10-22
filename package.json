@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Get a random book name",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,10 @@
   ],
   "author": "David Osorio <osoriodev@outlook.com>",
   "license": "MIT",
+  "bin": {
+    "random-book": "./bin/global.js"
+  },
+  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/osoriodev/random-book/issues"
   },
