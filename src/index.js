@@ -106,8 +106,7 @@ const randomBook = () => {
   let name = books[n].name
   let author = books[n].author
 
-  console.log(`Book: ${name}`);
-  console.log(`Author: ${author}`);
+  console.log('\x1b[33m%s\x1b[37m%s\x1b[33m%s\x1b[0m', name, ' by ', author)
 }
 
 export default { randomBook }
